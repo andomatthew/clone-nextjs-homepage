@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 import '../styles/globals.css'
-import '../styles/scss/global.scss' //bootstrap
+import '../styles/scss/custom.scss' //bootstrap
 
 
 function MyApp({ Component, pageProps }) {
