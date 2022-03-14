@@ -12,6 +12,7 @@ import Card from '../components/cards/card'
 import Banner from '../components/banner/banner'
 import Navbar from '../components/navbar/navbar'
 import Notification from '../components/notification/notification'
+import Hero from '../components/hero/hero'
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       <div className="custom-container">
         <Navbar />
         <Notification />
-
+        <Hero />
         
       </div>
     </>

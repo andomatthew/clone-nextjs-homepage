@@ -1,0 +1,25 @@
+.fontSize100 {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.fontSize20 {
+    font-size: 20px;
+    color: grey;
+    font-weight: 300;
+} 
+
+.paddingTop120 {
+    padding-top: 120px;
+}
+
+.margin30 {
+    margin-bottom: 30px;
+}
+
+@media screen and(max-width: 992px) {
+    .fontSize100 {
+        font-size: 60px;
+    }
+}
