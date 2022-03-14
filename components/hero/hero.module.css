@@ -18,8 +18,6 @@
     margin-bottom: 30px;
 }
 
-@media screen and(max-width: 992px) {
-    .fontSize100 {
-        font-size: 60px;
-    }
+.margin40 {
+    margin-bottom: 40px;
 }

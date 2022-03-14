@@ -22,7 +22,10 @@ export default function Home() {
       <div className="custom-container">
         <Navbar />
         <Notification />
-        <Hero />
+        <div className='container-fluid'>
+          <Hero />
+          
+        </div>
         
       </div>
     </>
