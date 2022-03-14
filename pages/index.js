@@ -9,16 +9,21 @@ import {
 } from '../components/buttons'
 
 import Card from '../components/cards/card'
+import Banner from '../components/banner/banner'
+import Navbar from '../components/navbar/navbar'
+import Notification from '../components/notification/notification'
 
 
 export default function Home() {
   return (
-    <div className="container">
-      
-      
+    <>
+      <Banner />
+      <div className="custom-container">
+        <Navbar />
+        <Notification />
 
-
-      
-    </div>
+        
+      </div>
+    </>
   )
 }

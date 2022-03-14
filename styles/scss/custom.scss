@@ -83,7 +83,6 @@ $font-family-base: "Inter", sans-serif;
         text-decoration-color: $dark;
     }
 }
-
 .link-primary-custom {
 
     padding: 4px;
@@ -93,4 +92,11 @@ $font-family-base: "Inter", sans-serif;
         text-decoration: none;
         border-radius: 5px;
     }
+}
+
+//containers
+.custom-container {
+    @include make-container();
+    max-width: 1024px;
+    padding: 0;
 }
