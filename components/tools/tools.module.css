@@ -1,0 +1,16 @@
+.paddingTop100{
+    padding-top: 100px;
+}
+
+.smallText{
+    color: #696969;
+    font-weight: 400;
+} 
+
+.marginHeader {
+    margin: 1rem 0 3rem;
+}
+
+.marginY40{
+    margin: 40px auto;
+}
