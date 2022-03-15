@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 
+import Layout from '../components/layout/layout'
+
 import '../styles/scss/custom.scss' //bootstrap
 import '../styles/globals.css'
 
@@ -10,7 +12,11 @@ function MyApp({ Component, pageProps }) {
     import("bootstrap/dist/js/bootstrap")
   })
 
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp

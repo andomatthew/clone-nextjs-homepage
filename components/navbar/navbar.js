@@ -13,7 +13,7 @@ export default function Navbar() {
     
     return (
         <>
-            <nav className={`${customFixedTop50} navbar fixed-top navbar-expand-lg navbar-light bg-light`}>
+            <nav className={`${customFixedTop50} navbar fixed-top navbar-expand-lg navbar-light bg-white`}>
                 <div className="container-fluid">
                     <Link href="/">
                         <a className="navbar-brand d-lg-none">Navbar Brand</a>

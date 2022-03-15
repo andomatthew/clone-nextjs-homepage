@@ -20,14 +20,13 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div className="custom-container">
+      <div className="custom-container bg-white">
         <Navbar />
         <Notification />
         <div className='container-fluid'>
           <Hero />
           <Tools />
         </div>
-        
       </div>
     </>
   )
