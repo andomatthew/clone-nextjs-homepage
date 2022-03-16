@@ -13,7 +13,7 @@ export default function Navbar() {
     
     return (
         <>
-            <nav className={`${customFixedTop50} navbar container-fluid px-0 fixed-top navbar-expand-md navbar-light bg-white flex-column`}>
+            <nav className={`custom-fixed-top-50 navbar container-fluid px-0 fixed-top navbar-expand-md navbar-light bg-white flex-column`}>
                 <div className='d-lg-none container-fluid justify-content-between align-items-center'>
                     <Link href="/test">
                         <a className="navbar-brand">Navbar Brand</a>
@@ -77,8 +77,8 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
-            <div className={`${separator100} d-sm-block d-md-none d-lg-block`}></div>
-            <div className={`${separator150} d-none d-md-block d-lg-none`}></div>
+            <div className='separator-150 d-sm-block d-md-none d-lg-block'></div>
+            <div className='separator-170 d-none d-md-block d-lg-none'></div>
         </>
     )
 }

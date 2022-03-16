@@ -50,14 +50,14 @@ export default function Tools() {
     return (
         <main className={`${paddingTop100} text-center`}>
             <div className={`${marginHeader}`}>
-                <h2>The Web SDK</h2>
+                <h2 className='fw-bold'>The Web SDK</h2>
                 <p className={`${smallText}`}>Next.js has all the tools you need to make the Web. Faster</p>
             </div>
                 
             <div className='container'>
                 <div className='row'>
                     {cardsContent.map((card, index) => (
-                        <div className='col-4 mb-4' key={index}>
+                        <div className='col-lg-4 col-md-6 col-sm-12 mb-4' key={index}>
                             <Card title={card.title} content={card.content} />
                         </div>
                     ))}

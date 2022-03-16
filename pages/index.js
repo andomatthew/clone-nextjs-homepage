@@ -26,7 +26,7 @@ export default function Home() {
       <div className="custom-container bg-white">
         <Navbar />
         <Notification />
-        <div className='container-fluid'>
+        <div className='container-fluid p-2'>
           <Hero />
           <Tools />
         </div>
